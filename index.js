@@ -42,10 +42,10 @@ const driversByName = function (drivers){
 const totalRevenue = function (drivers){
   const sumRevenue = function (agg,el,i,arr){
     total = agg.total + el.revenue
-    return {
-      //total
-      agg.total + el.revenue
-    }
+    return total
+    //return {
+    //  total
+    //}
   };
   return drivers.reduce(sumRevenue,{total:0});
 }
