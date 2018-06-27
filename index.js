@@ -12,7 +12,9 @@ const logDriverNames = function (drivers) {
 
 const logDriversByHometown = function (drivers,location) {
   const getNames = function (el,i,arr) {
-    console.log(el.name) ;
+    if (el.location === location) {
+      console.log(el.name) ;
+    };
   };
   return drivers.forEach(getNames);
 }
