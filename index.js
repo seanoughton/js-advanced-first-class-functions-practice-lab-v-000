@@ -26,6 +26,6 @@ const driversByRevenue = function (drivers) {
   const numberSorter = function (num1,num2) {
     return num1 - num2;
   }
-  let revenues = [];
+  let revenues = drivers.forEach(getRevenues);;
   revenues.sort(numberSorter);
 }
