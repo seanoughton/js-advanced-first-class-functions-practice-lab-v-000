@@ -25,9 +25,7 @@ const logDriversByHometown = function (drivers,location) {
 const driversByRevenue = function (drivers) {
 
   const getRevenues = function (el,i,arr) {
-    if (el.hometown === location) {
-      console.log(el.name) ;
-    }
+    return 
   };
 
   const numberSorter = function (num1,num2) {
