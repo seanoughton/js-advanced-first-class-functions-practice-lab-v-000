@@ -12,7 +12,7 @@ const logDriverNames = function (drivers) {
 
 const logDriversByHometown = function (drivers,location) {
   const getNamesForLocation = function (el,i,arr) {
-    if (el.location === location) {
+    if (el.hometown === location) {
       console.log(el.name) ;
     }
   };
