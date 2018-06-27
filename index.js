@@ -32,6 +32,6 @@ const driversByRevenue = function (drivers) {
     return num1 - num2;
   };
 
-  let revenues = drivers.forEach(getRevenues);;
+  let revenues = drivers.forEach(getRevenues);
   revenues.sort(numberSorter);
 }
