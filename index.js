@@ -57,7 +57,7 @@ const averageRevenue = function(drivers){
     return {
       //avg = total/drivers.length;
       //total
-      avg: total/drivers.length
+      avg: total/5
     }
   };
   return drivers.reduce(avg,{total:0,avg:0}).avg;
