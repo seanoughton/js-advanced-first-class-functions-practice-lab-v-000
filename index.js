@@ -41,9 +41,9 @@ const driversByName = function (drivers){
 //totalRevenue() — Receives an array of driver objects and returns the sum of the revenue earned by each driver.
 const totalRevenue = function (drivers){
   const sumRevenue = function (agg,el,i,arr){
-    agg.total = agg.total + el.revenue
+    total = agg.total + el.revenue
     return {
-      agg.total
+      total
     }
   };
   return drivers.reduce(sumRevenue,{total:0});
