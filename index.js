@@ -28,6 +28,10 @@ const driversByRevenue = function (drivers) {
     return el.revenue
   };
 
+  const getNames = function (el,i,arr) {
+    console.log(el.name);
+  };
+
   const numberSorter = function (num1,num2) {
     return num1 - num2;
   };
