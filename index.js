@@ -43,8 +43,9 @@ const totalRevenue = function (drivers){
   const sumRevenue = function (agg,el,i,arr){
     //console.log(agg)
     console.log(el.revenue)
-    //let sum = agg + el.revenue
-    //return sum
+    return {
+      total: agg.total + el.revenue
+    }
   };
   drivers.reduce(sumRevenue);
 }
