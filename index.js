@@ -55,8 +55,8 @@ const averageRevenue = function(drivers){
   const avgRevenue = function (agg,el,i,arr){
     total = agg.total + el.revenue
     return {
-      avg = total/drivers.length
+      avg = total/drivers.length;
     }
   };
-  return drivers.reduce(sumRevenue,{total:0}).avg;
+  return drivers.reduce(avgRevenue,{total:0}).avg;
 }
