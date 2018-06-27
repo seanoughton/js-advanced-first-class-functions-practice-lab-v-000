@@ -29,7 +29,6 @@ const driversByRevenue = function (drivers) {
     revenues.push(el.revenue)
   };
 
-
   const numberSorter = function (num1,num2) {
     return num1 - num2;
   };
