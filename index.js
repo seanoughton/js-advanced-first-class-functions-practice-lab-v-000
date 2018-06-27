@@ -4,5 +4,5 @@ const logDriverNames = function (drivers) {
   const getNames = function (el,i,arr) {
     console.log(el.name);
   };
-  return drivers.for_each(getNames);
+  return drivers.forEach(getNames);
 }
