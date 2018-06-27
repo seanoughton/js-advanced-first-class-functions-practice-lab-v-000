@@ -22,7 +22,7 @@ const logDriversByHometown = function (drivers,location) {
 //driversByRevenue() — Receives an array of driver objects and returns a new array of driver objects sorted by their revenue attribute from lowest to highest.
 
 const driversByRevenue = function (drivers) {
-  sortedDrivers = drivers;
+  let sortedDrivers = drive;
   const revenueSorter = function (driver1,driver2) {
     return driver1.revenue - driver2.revenue;
   };
