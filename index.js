@@ -52,11 +52,11 @@ const totalRevenue = function (drivers){
 // averageRevenue() — Receives an array of driver objects and returns the average revenue earned by each driver.
 
 const averageRevenue = function(drivers){
-  const avgRevenue = function (agg,el,i,arr){
+  const avg = function (agg,el,i,arr){
     total = agg.total + el.revenue
     return {
       avg = total/drivers.length;
     }
   };
-  return drivers.reduce(avgRevenue,{total:0,avg:0}).avg;
+  return drivers.reduce(avg,{total:0,avg:0}).avg;
 }
