@@ -26,13 +26,10 @@ const driversByRevenue = function (drivers) {
 
   let revenues = [];
   const getRevenues = function (el,i,arr) {
-    return el.revenue
+    revenues.push(el.revenue)
   };
 
-  const getNames = function (el,i,arr) {
-    return el.name;
-  };
-
+  
   const numberSorter = function (num1,num2) {
     return num1 - num2;
   };
