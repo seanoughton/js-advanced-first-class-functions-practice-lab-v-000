@@ -14,7 +14,7 @@ const logDriversByHometown = function (drivers,location) {
   const getNamesForLocation = function (el,i,arr) {
     if (el.location === location) {
       console.log(el.name) ;
-    };
+    }
   };
   return drivers.forEach(getNamesForLocation);
 }
