@@ -47,5 +47,5 @@ const totalRevenue = function (drivers){
     }
   };
   answer = drivers.reduce(sumRevenue,{total:0});
-  return answer;
+  return answer.total;
 }
