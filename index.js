@@ -33,7 +33,7 @@ const driversByRevenue = function (drivers) {
 
 const driversByName = function (drivers){
   const comparator = function (a,b) {
-    return a.localeCompare(b);
+    return a.name.localeCompare(b.name);
   };
   return drivers.concat().sort(comparator);
 }
