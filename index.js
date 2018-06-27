@@ -48,3 +48,5 @@ const totalRevenue = function (drivers){
   };
   return drivers.reduce(sumRevenue,{total:0}).total;
 }
+
+// averageRevenue() — Receives an array of driver objects and returns the average revenue earned by each driver.
