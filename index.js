@@ -36,5 +36,4 @@ const driversByName = function (drivers){
     return a.localeCompare(b);
   };
   return drivers.concat().sort(comparator);
-
 }
