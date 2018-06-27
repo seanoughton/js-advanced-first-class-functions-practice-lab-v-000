@@ -34,5 +34,5 @@ const driversByRevenue = function (drivers) {
   };
 
   drivers.forEach(getRevenues);
-  revenues.sort;
+  return revenues.sort;
 }
