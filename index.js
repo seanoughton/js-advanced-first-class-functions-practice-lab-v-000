@@ -28,3 +28,5 @@ const driversByRevenue = function (drivers) {
   };
   return drivers.concat().sort(revenueSorter);
 }
+
+//driversByName() — Receives an array of driver objects and returns a new array of driver objects sorted by their name attribute from A to Z. Here, you may have to use the String.prototype.localeCompare() method.
