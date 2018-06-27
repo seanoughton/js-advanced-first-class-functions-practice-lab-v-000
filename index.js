@@ -8,7 +8,7 @@ const logDriverNames = function (drivers) {
   return drivers.forEach(getNames);
 }
 
-//logDriversByHometown() — Receives an array of driver objects as the first argument and a location as the second argument. The function logs to the console the
+//logDriversByHometown() — Receives an array of driver objects as the first argument and a location as the second argument. The function logs to the console the name attribute of each driver whose hometown matches the string passed in as the 'location' argument.
 
 const logDriversByHometown = function (drivers,location) {
 
