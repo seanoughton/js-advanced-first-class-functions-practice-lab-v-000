@@ -24,16 +24,16 @@ const logDriversByHometown = function (drivers,location) {
 
 const driversByRevenue = function (drivers) {
 
-  const getNamesForLocation = function (el,i,arr) {
+  const getRevenues = function (el,i,arr) {
     if (el.hometown === location) {
       console.log(el.name) ;
     }
   };
-  
+
   const numberSorter = function (num1,num2) {
     return num1 - num2;
   };
-  
+
   let revenues = drivers.forEach(getRevenues);;
   revenues.sort(numberSorter);
 }
