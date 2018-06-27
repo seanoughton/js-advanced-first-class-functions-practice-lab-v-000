@@ -10,6 +10,6 @@ const logDriverNames = function (drivers) {
 
 //logDriversByHometown() — Receives an array of driver objects as the first argument and a location as the second argument. The function logs to the console the
 
-const logDriversByHometown = function (drivers) {
-  
+const logDriversByHometown = function (drivers,location) {
+
 }
