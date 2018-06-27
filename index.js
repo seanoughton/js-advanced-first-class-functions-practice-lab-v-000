@@ -24,12 +24,13 @@ const logDriversByHometown = function (drivers,location) {
 
 const driversByRevenue = function (drivers) {
 
+  let revenues = [];
   const getRevenues = function (el,i,arr) {
     return el.revenue
   };
 
   const getNames = function (el,i,arr) {
-    console.log(el.name);
+    return el.name;
   };
 
   const numberSorter = function (num1,num2) {
